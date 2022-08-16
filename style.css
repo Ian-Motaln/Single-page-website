@@ -1,23 +1,23 @@
 
-a:link {
+li a:link {
     color: blue;
     background-color: transparent;
     text-decoration: none;
   }
   
-  a:visited {
+ li a:visited {
     color: white;
     background-color: transparent;
     text-decoration: none;
   }
   
-  a:hover {
+li a:hover {
     color: red;
     background-color: transparent;
     text-decoration: underline;
   }
   
-  a:active {
+ li a:active {
     color: yellow;
     background-color: transparent;
     text-decoration: underline;
@@ -39,9 +39,20 @@ footer {
     height: 100vh;
     color: white;
 }
-#NewestMacbook{
-    Width: 30%;
+#gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     
+
+}
+#NewestMacbook{
+    Width: 100%;   
+}
+#macbook {
+    width: 100%;
+}
+#macbookAndImac {
+    width: 100%;
 }
 .Team_members {
     margin: 10px;
@@ -60,6 +71,8 @@ margin-top: 8px; vertical-align: middle;
 .team_members {
     font-style: italic;
     font-size: 10px;
+    color: blue;
+    text-decoration: none;
 }
 .Wayne_question {
     font-style: italic;
